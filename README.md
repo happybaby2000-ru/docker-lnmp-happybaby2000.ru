@@ -20,6 +20,10 @@ Our app scripts are located on host, you can edit files directly without rebuild
 
 At first, you should have had [Docker](https://docs.docker.com) and [Docker Compose](https://docs.docker.com/compose) installed.
 
+Copy .env file and edit
+    
+    $ copy .sample.env .env
+
 Without building images one by one, you can make use of `docker-compose` and simply issue:
 
     $ sudo docker-compose up
@@ -28,7 +32,7 @@ For more operations to containers, please refer to:
 
     $ sudo docker-compose --help
 
-Check out your https://\<docker-host\> and have fun :beer:
+Check out your http://\<docker-host\> and have fun :beer:
 
 ### Contributors
 
