@@ -22,7 +22,7 @@ At first, you should have had [Docker](https://docs.docker.com) and [Docker Comp
 
 Copy .env file and edit
     
-    $ copy .sample.env .env
+    $ cp .sample.env .env
 
 Without building images one by one, you can make use of `docker-compose` and simply issue:
 
