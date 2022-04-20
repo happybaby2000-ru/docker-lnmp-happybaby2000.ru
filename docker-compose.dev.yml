@@ -1,0 +1,24 @@
+version: "3.7"
+
+services:
+  nginx:
+    ports:
+      - "8080:80"
+    volumes:
+      - ./app/src:/usr/share/nginx/html
+
+  php-fpm:
+    ports:
+      - "9000:9000"
+    volumes:
+      - ./log/php-fpm:/var/log/php-fpm
+      - ./app/src:/usr/share/nginx/html
+
+  mysql:
+    ports:
+      # Allow client to access 3306
+      - "3306:3306"
+
+  pma:
+    ports:
+      - "8090:80"
