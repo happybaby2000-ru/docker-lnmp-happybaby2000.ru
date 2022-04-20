@@ -45,3 +45,7 @@ sndnvaps <sndnvaps@gmail.com>
 MIT
 
   [1]: architecture.png
+
+
+### Dev
+Пока что корзина не вынесена в отдельный сервис. Запускаем ее вручную из папки front
