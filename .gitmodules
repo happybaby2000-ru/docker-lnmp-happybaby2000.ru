@@ -1,0 +1,3 @@
+[submodule "app/www/happybaby2000.ru"]
+	path = app/www/happybaby2000.ru
+	url = git@github.com:happybaby2000-ru/happybaby2000.ru.git
